@@ -1,0 +1,171 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND #PWR?
+U 1 1 60B2E46C
+P 5500 4500
+AR Path="/60B2E46C" Ref="#PWR?"  Part="1" 
+AR Path="/60B2ABA4/60B2E46C" Ref="#PWR0165"  Part="1" 
+F 0 "#PWR0165" H 5500 4250 50  0001 C CNN
+F 1 "GND" H 5505 4327 50  0000 C CNN
+F 2 "" H 5500 4500 50  0001 C CNN
+F 3 "" H 5500 4500 50  0001 C CNN
+	1    5500 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60B2E472
+P 6200 4300
+AR Path="/60B2E472" Ref="#PWR?"  Part="1" 
+AR Path="/60B2ABA4/60B2E472" Ref="#PWR0166"  Part="1" 
+F 0 "#PWR0166" H 6200 4050 50  0001 C CNN
+F 1 "GND" H 6205 4127 50  0000 C CNN
+F 2 "" H 6200 4300 50  0001 C CNN
+F 3 "" H 6200 4300 50  0001 C CNN
+	1    6200 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 60B2E478
+P 6200 4200
+AR Path="/60B2E478" Ref="C?"  Part="1" 
+AR Path="/60B2ABA4/60B2E478" Ref="C47"  Part="1" 
+F 0 "C47" H 6100 4100 50  0000 L CNN
+F 1 "0.1uF" H 6300 4100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6200 4200 50  0001 C CNN
+F 3 "~" H 6200 4200 50  0001 C CNN
+	1    6200 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 60B2E47E
+P 6450 4000
+AR Path="/60B2E47E" Ref="C?"  Part="1" 
+AR Path="/60B2ABA4/60B2E47E" Ref="C46"  Part="1" 
+F 0 "C46" V 6500 3850 50  0000 L CNN
+F 1 "2.2uF" V 6350 3850 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6450 4000 50  0001 C CNN
+F 3 "~" H 6450 4000 50  0001 C CNN
+	1    6450 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60B2E484
+P 6650 4150
+AR Path="/60B2E484" Ref="#PWR?"  Part="1" 
+AR Path="/60B2ABA4/60B2E484" Ref="#PWR0167"  Part="1" 
+F 0 "#PWR0167" H 6650 3900 50  0001 C CNN
+F 1 "GND" H 6800 4000 50  0000 R CNN
+F 2 "" H 6650 4150 50  0001 C CNN
+F 3 "" H 6650 4150 50  0001 C CNN
+	1    6650 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60B2E48D
+P 4800 4100
+AR Path="/60B2E48D" Ref="#PWR?"  Part="1" 
+AR Path="/60B2ABA4/60B2E48D" Ref="#PWR0168"  Part="1" 
+F 0 "#PWR0168" H 4800 3850 50  0001 C CNN
+F 1 "GND" H 4800 3900 50  0000 C CNN
+F 2 "" H 4800 4100 50  0001 C CNN
+F 3 "" H 4800 4100 50  0001 C CNN
+	1    4800 4100
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6200 3500
+NoConn ~ 6200 3700
+NoConn ~ 6200 3800
+Wire Wire Line
+	5500 3100 5650 3100
+$Comp
+L Sensor_Motion:MPU-6000 U?
+U 1 1 60B2E497
+P 5500 3800
+AR Path="/60B2E497" Ref="U?"  Part="1" 
+AR Path="/60B2ABA4/60B2E497" Ref="U7"  Part="1" 
+F 0 "U7" H 5950 4350 50  0000 C CNN
+F 1 "MPU-6000" H 5150 4350 50  0000 C CNN
+F 2 "Sensor_Motion:InvenSense_QFN-24_4x4mm_P0.5mm" H 5500 3000 50  0001 C CNN
+F 3 "https://store.invensense.com/datasheets/invensense/MPU-6050_DataSheet_V3%204.pdf" H 5500 3650 50  0001 C CNN
+	1    5500 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60B2E49D
+P 6150 3100
+AR Path="/60B2E49D" Ref="#PWR?"  Part="1" 
+AR Path="/60B2ABA4/60B2E49D" Ref="#PWR0169"  Part="1" 
+F 0 "#PWR0169" H 6150 2850 50  0001 C CNN
+F 1 "GND" H 6155 2972 50  0000 R CNN
+F 2 "" H 6150 3100 50  0001 C CNN
+F 3 "" H 6150 3100 50  0001 C CNN
+	1    6150 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 60B2E4A3
+P 5750 3100
+AR Path="/60B2E4A3" Ref="C?"  Part="1" 
+AR Path="/60B2ABA4/60B2E4A3" Ref="C45"  Part="1" 
+F 0 "C45" V 5800 2950 50  0000 L CNN
+F 1 "0.1uF" V 5650 2950 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5750 3100 50  0001 C CNN
+F 3 "~" H 5750 3100 50  0001 C CNN
+	1    5750 3100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5850 3100 6150 3100
+Wire Wire Line
+	4800 4000 4800 4100
+Connection ~ 4800 4100
+$Comp
+L power:3V3_GYRO #PWR?
+U 1 1 60B2E4AC
+P 5500 3200
+AR Path="/60B2E4AC" Ref="#PWR?"  Part="1" 
+AR Path="/60B2ABA4/60B2E4AC" Ref="#PWR2"  Part="1" 
+F 0 "#PWR2" H 5500 3200 50  0001 C CNN
+F 1 "3V3_GYRO" H 5500 3450 50  0000 C CNN
+F 2 "" H 5500 3200 50  0001 C CNN
+F 3 "" H 5500 3200 50  0001 C CNN
+	1    5500 3200
+	1    0    0    -1  
+$EndComp
+Connection ~ 5500 3100
+Text HLabel 4800 3500 0    50   Input ~ 0
+SPI1_MOSI
+Text HLabel 4800 3600 0    50   Input ~ 0
+SPI1_MISO
+Text HLabel 4800 3700 0    50   Input ~ 0
+SPI1_SCK
+Text HLabel 4800 3800 0    50   Input ~ 0
+SPI1_CS
+Wire Wire Line
+	6650 4000 6650 4150
+Wire Wire Line
+	6200 4000 6350 4000
+Wire Wire Line
+	6550 4000 6650 4000
+$EndSCHEMATC
