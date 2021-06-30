@@ -228,19 +228,6 @@ $EndComp
 Text Notes 2350 4900 0    118  ~ 24
 CAMERA
 $Comp
-L power:VCC #PWR?
-U 1 1 60A865C1
-P 4000 5100
-AR Path="/60A865C1" Ref="#PWR?"  Part="1" 
-AR Path="/60A7361B/60A865C1" Ref="#PWR0140"  Part="1" 
-F 0 "#PWR0140" H 4000 4950 50  0001 C CNN
-F 1 "VCC" H 3900 5200 50  0000 C CNN
-F 2 "" H 4000 5100 50  0001 C CNN
-F 3 "" H 4000 5100 50  0001 C CNN
-	1    4000 5100
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x08 J?
 U 1 1 60A865C9
 P 4500 5450
@@ -552,32 +539,6 @@ Connection ~ 3700 6950
 Wire Wire Line
 	3700 7050 4100 7050
 $Comp
-L power:GND #PWR?
-U 1 1 60A86572
-P 5300 5950
-AR Path="/60A86572" Ref="#PWR?"  Part="1" 
-AR Path="/60A7361B/60A86572" Ref="#PWR0154"  Part="1" 
-F 0 "#PWR0154" H 5300 5700 50  0001 C CNN
-F 1 "GND" H 5200 5850 50  0000 C CNN
-F 2 "" H 5300 5950 50  0001 C CNN
-F 3 "" H 5300 5950 50  0001 C CNN
-	1    5300 5950
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR?
-U 1 1 60A8656C
-P 5150 5700
-AR Path="/60A8656C" Ref="#PWR?"  Part="1" 
-AR Path="/60A7361B/60A8656C" Ref="#PWR0155"  Part="1" 
-F 0 "#PWR0155" H 5150 5550 50  0001 C CNN
-F 1 "VCC" H 5050 5800 50  0000 C CNN
-F 2 "" H 5150 5700 50  0001 C CNN
-F 3 "" H 5150 5700 50  0001 C CNN
-	1    5150 5700
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x08 J?
 U 1 1 60A86564
 P 5600 5450
@@ -590,59 +551,6 @@ F 3 "~" H 5600 5450 50  0001 C CNN
 	1    5600 5450
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 60A865BB
-P 4050 5350
-AR Path="/60A865BB" Ref="#PWR?"  Part="1" 
-AR Path="/60A7361B/60A865BB" Ref="#PWR0156"  Part="1" 
-F 0 "#PWR0156" H 4050 5100 50  0001 C CNN
-F 1 "GND" H 4050 5200 50  0000 C CNN
-F 2 "" H 4050 5350 50  0001 C CNN
-F 3 "" H 4050 5350 50  0001 C CNN
-	1    4050 5350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4000 5250 4300 5250
-Wire Wire Line
-	4050 5350 4050 5150
-Wire Wire Line
-	4050 5150 4300 5150
-Wire Wire Line
-	4000 5100 4000 5250
-Text HLabel 4300 5450 0    50   Input ~ 0
-M2
-Text HLabel 4300 5350 0    50   Input ~ 0
-M1
-Text HLabel 4300 5550 0    50   Input ~ 0
-M3
-Text HLabel 4300 5650 0    50   Input ~ 0
-M4
-Text HLabel 4300 5750 0    50   Input ~ 0
-UART6_RX
-Text HLabel 4300 5850 0    50   Input ~ 0
-CURR
-Text HLabel 5400 5650 0    50   Input ~ 0
-M1
-Text HLabel 5400 5550 0    50   Input ~ 0
-M2
-Text HLabel 5400 5450 0    50   Input ~ 0
-M3
-Text HLabel 5400 5350 0    50   Input ~ 0
-M4
-Text HLabel 5400 5250 0    50   Input ~ 0
-UART6_RX
-Text HLabel 5400 5150 0    50   Input ~ 0
-CURR
-Wire Wire Line
-	5300 5950 5300 5850
-Wire Wire Line
-	5300 5850 5400 5850
-Wire Wire Line
-	5150 5700 5150 5750
-Wire Wire Line
-	5150 5750 5400 5750
 Text HLabel 2800 5300 0    50   Input ~ 0
 CAM
 Text HLabel 2800 5850 0    50   Input ~ 0
@@ -14009,4 +13917,96 @@ Text Notes 7500 1700 0    197  ~ 39
 USB Conn
 Text Notes 2600 1300 0    591  ~ 118
 Connectors
+$Comp
+L power:VCC #PWR?
+U 1 1 60DC538C
+P 5300 5050
+AR Path="/60DC538C" Ref="#PWR?"  Part="1" 
+AR Path="/60A7361B/60DC538C" Ref="#PWR0154"  Part="1" 
+F 0 "#PWR0154" H 5300 4900 50  0001 C CNN
+F 1 "VCC" H 5200 5150 50  0000 C CNN
+F 2 "" H 5300 5050 50  0001 C CNN
+F 3 "" H 5300 5050 50  0001 C CNN
+	1    5300 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60DC5392
+P 4900 5350
+AR Path="/60DC5392" Ref="#PWR?"  Part="1" 
+AR Path="/60A7361B/60DC5392" Ref="#PWR0155"  Part="1" 
+F 0 "#PWR0155" H 4900 5100 50  0001 C CNN
+F 1 "GND" H 4900 5200 50  0000 C CNN
+F 2 "" H 4900 5350 50  0001 C CNN
+F 3 "" H 4900 5350 50  0001 C CNN
+	1    4900 5350
+	1    0    0    -1  
+$EndComp
+Text HLabel 5400 5650 0    50   Input ~ 0
+M2
+Text HLabel 5400 5550 0    50   Input ~ 0
+M1
+Text HLabel 5400 5750 0    50   Input ~ 0
+M3
+Text HLabel 5400 5850 0    50   Input ~ 0
+M4
+Text HLabel 5400 5450 0    50   Input ~ 0
+UART6_RX
+Text HLabel 5400 5350 0    50   Input ~ 0
+CURR
+Wire Wire Line
+	5300 5050 5300 5150
+Wire Wire Line
+	5300 5150 5400 5150
+Wire Wire Line
+	4900 5250 4900 5350
+Wire Wire Line
+	4900 5250 5400 5250
+$Comp
+L power:VCC #PWR?
+U 1 1 60DD5891
+P 4200 5050
+AR Path="/60DD5891" Ref="#PWR?"  Part="1" 
+AR Path="/60A7361B/60DD5891" Ref="#PWR0140"  Part="1" 
+F 0 "#PWR0140" H 4200 4900 50  0001 C CNN
+F 1 "VCC" H 4100 5150 50  0000 C CNN
+F 2 "" H 4200 5050 50  0001 C CNN
+F 3 "" H 4200 5050 50  0001 C CNN
+	1    4200 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60DD5897
+P 3800 5350
+AR Path="/60DD5897" Ref="#PWR?"  Part="1" 
+AR Path="/60A7361B/60DD5897" Ref="#PWR0156"  Part="1" 
+F 0 "#PWR0156" H 3800 5100 50  0001 C CNN
+F 1 "GND" H 3800 5200 50  0000 C CNN
+F 2 "" H 3800 5350 50  0001 C CNN
+F 3 "" H 3800 5350 50  0001 C CNN
+	1    3800 5350
+	1    0    0    -1  
+$EndComp
+Text HLabel 4300 5650 0    50   Input ~ 0
+M2
+Text HLabel 4300 5550 0    50   Input ~ 0
+M1
+Text HLabel 4300 5750 0    50   Input ~ 0
+M3
+Text HLabel 4300 5850 0    50   Input ~ 0
+M4
+Text HLabel 4300 5450 0    50   Input ~ 0
+UART6_RX
+Text HLabel 4300 5350 0    50   Input ~ 0
+CURR
+Wire Wire Line
+	4200 5050 4200 5150
+Wire Wire Line
+	4200 5150 4300 5150
+Wire Wire Line
+	3800 5250 3800 5350
+Wire Wire Line
+	3800 5250 4300 5250
 $EndSCHEMATC
