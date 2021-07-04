@@ -17596,4 +17596,8 @@ EndData
 $EndBitmap
 Text Notes 4600 1550 0    591  ~ 118
 MCU
+Text Label 6500 4900 0    50   ~ 0
+D+
+Text Label 6500 5000 0    50   ~ 0
+D-
 $EndSCHEMATC
